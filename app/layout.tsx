@@ -1,3 +1,4 @@
+//홈화면 꾸미기
 import type { Metadata } from "next";
 import { Plus_Jakarta_Sans } from "next/font/google";
 import "./globals.css";
@@ -31,7 +32,6 @@ export default function RootLayout({
         <ThemeProvider attribute="class" defaultTheme="dark">
           {children}
         </ThemeProvider>
-        {children}
       </body>
     </html>
   );
